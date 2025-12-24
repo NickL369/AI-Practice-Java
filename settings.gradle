@@ -1,0 +1,2 @@
+rootProject.name = "AI-Practice-Java"
+include("hw02", "hw03")

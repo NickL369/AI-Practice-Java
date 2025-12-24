@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+
+repositories {
+    mavenCentral()
+}
+/*
+dependencies {
+    implementation "com.github.haifengl:smile-core:2.6.0"
+    implementation "com.github.haifengl:smile-data:2.6.0"
+    implementation "com.github.haifengl:smile-io:2.6.0"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+*/
